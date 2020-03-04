@@ -5,3 +5,5 @@ It's what I use for my [sway](https://github.com/swaywm/sway) lockscreen. This u
 This is very much a WIP and maybe not usable by anyone but me. Thank you to https://github.com/fschutt/fastblur for the original fast blur implementation in Rust.
 
 The whole reason for this is that I wanted to do something like [swaylock-fancy](https://github.com/Big-B/swaylock-fancy) in less time since I find it awful to bind a key to locking your screen but you must wait 3+ seconds before you see anything happen - I just wanted sub second response time.
+
+Here's how I use this on NixOS as my screenlocker: [nixos-configuration/swaylock-dope](https://github.com/johnae/nixos-configuration/blob/master/pkgs/swaylock-dope/swaylock-dope).
